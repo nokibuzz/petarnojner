@@ -1,0 +1,7 @@
+# Private source photos, local previews and generated drafts stay out of the public repository.
+*.jpeg
+*.jpg
+*.png
+!dist/**
+UPWORK_PROFILE_DRAFT.md
+.DS_Store
