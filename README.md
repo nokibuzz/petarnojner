@@ -1,8 +1,10 @@
 # Petar Nojner — portfolio
 
-A local-first, static portfolio for freelance clients and engineering teams. The site is written in English for an international audience and uses only HTML, CSS and JavaScript.
+A public static portfolio for freelance clients and engineering teams. The site is written in English for an international audience and uses only HTML, CSS and JavaScript.
 
-## Preview
+Live site: https://nokibuzz.github.io/petarnojner/
+
+## Local preview
 
 From this directory:
 
@@ -34,3 +36,7 @@ The site remains a static HTML/CSS/JavaScript project. Read [DESIGN_NOTES.md](DE
 ## Interactive sections
 
 `dist/sections.css` and `dist/sections.js` add project entrances, scroll-colored lettering, timeline reveals, workshop motion, a six-step engineering walkthrough and a contact topic selector. The selector prepares an email with relevant prompts; it never sends mail automatically. All animation honors the global pause button and the operating system’s reduced-motion preference.
+
+## Publishing
+
+Push to `main`. The GitHub Pages workflow publishes `dist/` automatically. The public Pages address is configured as the repository homepage. A custom domain can be attached in GitHub Pages after the domain is registered and its DNS is under Petar’s control.
