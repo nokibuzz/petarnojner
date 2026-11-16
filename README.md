@@ -35,7 +35,7 @@ The site remains a static HTML/CSS/JavaScript project. Read [DESIGN_NOTES.md](DE
 
 ## Earlier repository studies
 
-Six smaller source-only projects appear after the eight selected case studies: Insightful, BidApplication, youtube-testing, movie-catalog, single-pass-assembler and Compiler-for-micro-Java. Their cards link to repository README instructions. The SVG thumbnails are conceptual illustrations made for this portfolio; they are not screenshots of running applications.
+Six smaller source-only projects appear within Selected Work after the eight featured case studies: Insightful, BidApplication, youtube-testing, movie-catalog, single-pass-assembler and Compiler-for-micro-Java. Their cards link to repository README instructions. The SVG thumbnails are conceptual illustrations made for this portfolio; they are not screenshots of running applications.
 
 ## Interactive sections
 

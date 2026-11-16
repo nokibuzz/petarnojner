@@ -17,7 +17,8 @@ mobileMenu?.querySelectorAll('a').forEach(link => {
 });
 
 const filterButtons = [...document.querySelectorAll('.filter')];
-const projectCards = [...document.querySelectorAll('.project-card')];
+const projectCards = [...document.querySelectorAll('.project-card, .archive-card')];
+const archiveGrid = document.querySelector('.archive-grid');
 
 filterButtons.forEach(button => button.addEventListener('click', () => {
   const selected = button.dataset.filter;
@@ -29,4 +30,5 @@ filterButtons.forEach(button => button.addEventListener('click', () => {
   projectCards.forEach(card => {
     card.hidden = selected !== 'all' && !card.dataset.category.split(' ').includes(selected);
   });
+  archiveGrid.hidden = ![...archiveGrid.querySelectorAll('.archive-card')].some(card => !card.hidden);
 }));

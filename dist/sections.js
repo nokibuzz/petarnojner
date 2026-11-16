@@ -5,7 +5,7 @@
   const clamp=value=>Math.max(0,Math.min(1,value));
   document.querySelectorAll('.tags,.atlas-card ul,.workshop-topics').forEach(group=>[...group.children].forEach((item,i)=>item.style.setProperty('--tag-i',i)));
   const inks=[];
-  document.querySelectorAll('#intro-title,#work-title,#archive-title,#experience-title,#review-title,#contact-title,#workshops-title').forEach(el=>{
+  document.querySelectorAll('#intro-title,#work-title,#experience-title,#review-title,#contact-title,#workshops-title').forEach(el=>{
     el.setAttribute('aria-label',el.textContent);
     function split(node){[...node.childNodes].forEach(child=>{
       if(child.nodeType===Node.TEXT_NODE){const fragment=document.createDocumentFragment();child.textContent.split(/(\s+)/).forEach(part=>{
