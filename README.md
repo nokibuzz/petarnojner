@@ -33,6 +33,10 @@ The opening scene moves from a photographic portrait through an anime interpreta
 
 The site remains a static HTML/CSS/JavaScript project. Read [DESIGN_NOTES.md](DESIGN_NOTES.md) for the three reviewed GitHub references, implementation scope, generated asset prompts and validation. Reduced motion and the pause button keep all content accessible without continuous animation.
 
+## Earlier repository studies
+
+Six smaller source-only projects appear after the eight selected case studies: Insightful, BidApplication, youtube-testing, movie-catalog, single-pass-assembler and Compiler-for-micro-Java. Their cards link to repository README instructions. The SVG thumbnails are conceptual illustrations made for this portfolio; they are not screenshots of running applications.
+
 ## Interactive sections
 
 `dist/sections.css` and `dist/sections.js` add project entrances, scroll-colored lettering, timeline reveals, workshop motion, a six-step engineering walkthrough and a contact topic selector. The selector prepares an email with relevant prompts; it never sends mail automatically. All animation honors the global pause button and the operating system’s reduced-motion preference.

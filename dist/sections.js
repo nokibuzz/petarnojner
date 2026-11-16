@@ -5,7 +5,7 @@
   const clamp=value=>Math.max(0,Math.min(1,value));
   document.querySelectorAll('.tags,.atlas-card ul,.workshop-topics').forEach(group=>[...group.children].forEach((item,i)=>item.style.setProperty('--tag-i',i)));
   const inks=[];
-  document.querySelectorAll('#intro-title,#work-title,#experience-title,#review-title,#contact-title,#workshops-title').forEach(el=>{
+  document.querySelectorAll('#intro-title,#work-title,#archive-title,#experience-title,#review-title,#contact-title,#workshops-title').forEach(el=>{
     el.setAttribute('aria-label',el.textContent);
     function split(node){[...node.childNodes].forEach(child=>{
       if(child.nodeType===Node.TEXT_NODE){const fragment=document.createDocumentFragment();child.textContent.split(/(\s+)/).forEach(part=>{
@@ -30,7 +30,7 @@
     entry.target.classList.toggle('section-visible',entry.isIntersecting);
     if(entry.target.matches('.technology-atlas')&&!entry.isIntersecting)stopTrace();
   }),{threshold:.05});
-  document.querySelectorAll('.atlas-card,.workshops,.contact,.technology-atlas,.employer-group').forEach((el,i)=>{
+  document.querySelectorAll('.atlas-card,.archive-card,.workshops,.contact,.technology-atlas,.employer-group').forEach((el,i)=>{
     if(el.matches('.atlas-card')){el.classList.add('section-reveal');el.style.setProperty('--entry-x',`${i%2?30:-30}px`);el.style.setProperty('--entry-r',`${i%2?2:-2}deg`);el.style.setProperty('--entry-delay',`${i%3*70}ms`);}
     revealObserver.observe(el);
   });
