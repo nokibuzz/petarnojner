@@ -44,3 +44,7 @@ Six smaller source-only projects appear within Selected Work after the eight fea
 ## Publishing
 
 Push to `main`. The GitHub Pages workflow publishes `dist/` automatically. The public Pages address is configured as the repository homepage. A custom domain can be attached in GitHub Pages after the domain is registered and its DNS is under Petar’s control.
+
+## Upwork-safe showcase
+
+`dist/upwork/index.html` is a separate selected-work page for links shared on Upwork. It intentionally contains no email, phone number, off-platform contact link or link to the main site, whose contact section is appropriate for non-Upwork traffic. It links back to the Upwork freelancer profile for conversations.
