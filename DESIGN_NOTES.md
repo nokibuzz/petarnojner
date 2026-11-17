@@ -45,3 +45,19 @@ Checked desktop at 1440×900 and mobile at 390×844. Verified all three scene st
 - Projects enter with perspective and image reveals; experience uses alternating entrances, timeline progress and dot bursts; feedback and section headlines use progressive letter coloring. Workshops use an orbital composition.
 - The engineering toolkit includes six selectable architecture steps and an optional timed walkthrough linked to actual case studies. The contact section adds orbit motion, a pointer-responsive CTA and four useful email topics. Motion runs on native scrolling without scroll hijacking.
 - Verified at 1440 px desktop, 390 px mobile and 320 px narrow mobile: no horizontal overflow. Exercised the new Pitwall dialog, toolkit selection/walkthrough, contact topic links, pause and reduced-motion behavior. Reduced-motion mode reported zero running animations. JavaScript syntax checks passed; no browser console warnings or errors.
+
+## My life timeline
+
+Added an independent `life.html` experience with entry links in the desktop navigation, mobile navigation and hero. Nine chapters use Petar's supplied years, including his explicit confirmation of fatherhood in 2023. Hand-authored SVG scenes illustrate birth, school, the first game, university, marriage and fatherhood. Existing WhatsApp-derived portraits animate in career and graduation chapters and are labeled as present-day images.
+
+Desktop text scrolls alongside a fixed illustration and active year rail. Mobile keeps the current illustration and text together as scrolling advances the chapter. Native wheel/touch scrolling remains intact. Year selection centers desktop chapters; hash links and browser history restore the corresponding chapter. Decorative particles stop on pause, reduced motion and a hidden browser tab.
+
+Verified all nine chapter links at 1440×900 and the mobile flow at 390×844, with no browser errors. Checked widths 320, 390, 700, 768, 1024 and 1440 for horizontal overflow. Verified direct chapter URLs, browser back, portfolio return links, and zero running animations when paused or reduced motion is enabled.
+
+## Life passages and personal introduction
+
+Added eight scroll-controlled interludes between the nine life milestones, retaining the existing year navigation. Each has a distinct symbolic SVG scene and motion: shooting star, paper flight, pixel assembly, code, rocket, masked globe for COVID-19, golden thread and heartbeat. Canvas effects add light streaks, particles, virus outlines and connection traces. The COVID passage sits between career and graduation and makes no claims about Petar's health or working arrangements. Existing chapter loops now vary through book sway, pixel steps, orbital tracing, portrait perspective, confetti, ring rotation and family movement.
+
+Added the supplied YouTube introduction after client feedback and before contact, using a local 1280×720 thumbnail, a 1:37 duration label and a click-to-load `youtube-nocookie.com` embed. Verified actual playback in Chrome. Close removes the iframe and restores keyboard focus; the YouTube fallback link is always present. The Upwork-specific page is untouched.
+
+Verified all eight interludes, all nine year links, desktop/mobile rendering, six viewport widths, direct chapter URLs, zero running animations when paused or reduced motion is enabled, and no JavaScript errors. Verified the video poster makes no initial iframe request, Play creates the intended player, and Close unloads it. Local preview remains on port 4173 as requested.

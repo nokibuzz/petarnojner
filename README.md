@@ -48,3 +48,15 @@ Push to `main`. The GitHub Pages workflow publishes `dist/` automatically. The p
 ## Upwork-safe showcase
 
 `dist/upwork/index.html` is a separate selected-work page for links shared on Upwork. It intentionally contains no email, phone number, off-platform contact link or link to the main site, whose contact section is appropriate for non-Upwork traffic. It links back to the Upwork freelancer profile for conversations.
+
+## My life
+
+`dist/life.html` is a separate illustrated life story, linked from the main navigation, mobile menu and hero. Nine chronological chapters cover 1996, 2003, 2011, 2013, 2015, 2018, 2020, 2022 and 2023, using dates supplied by Petar. Fatherhood in 2023 was explicitly confirmed. Chapter links support direct URLs such as `life.html#year-2013`.
+
+`life.css` and `life.js` provide the planet formation entrance, symbolic SVG scenes, animated supplied portraits, scroll transitions, particles, active year navigation and progress. The portraits are present-day photographs, labeled as such; the childhood and family scenes are illustrations. No historical photographs or game screenshots are implied. The standalone page has its own motion control and respects the device's reduced-motion preference. Scrolling stays native; clicking a year aligns its chapter in the viewport.
+
+Eight short visual passages now connect the life chapters: a shooting star, turning pages, assembling pixels, code, lift-off, COVID-19 world context, a golden thread and a heartbeat. They are scroll scenes, not additional timeline milestones. The COVID reference describes world events without implying personal illness or a particular work arrangement. Chapter animations have distinct movement, and every passage respects pause and reduced-motion settings.
+
+## Video introduction
+
+`dist/introduction.css` and `dist/introduction.js` add Petar's supplied [portfolio introduction](https://youtu.be/PLa2YgZjj7Y) between client feedback and the contact section. A locally saved YouTube thumbnail appears first. The YouTube privacy-enhanced player is created only after pressing Play; closing it unloads the player, stops playback and restores focus. The external YouTube link remains available as a fallback. This section is on the main portfolio only.
